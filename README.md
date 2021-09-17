@@ -1,4 +1,4 @@
-#How to run the tests
+# How to run the tests
 1. Run the application for testing.
 
 2. Clone this repository to your local machine using the command below: 

@@ -71,7 +71,7 @@ public class WarningsTest extends BaseTest {
 
     @MethodSource("passwordValidationDataProvider")
     @ParameterizedTest(name = "{2}")
-    @Story("{storyName}")
+    @Story("Check warnings appear")
     public void passwordWarningTests(String expectedWarningText, UserCreationInfo userInfo, String storyName) {
         createUserDialog.createUser(userInfo);
         createUserDialog.checkWarningIconIsShown();
@@ -80,7 +80,7 @@ public class WarningsTest extends BaseTest {
 
     @MethodSource("loginValidationsDataProvider")
     @ParameterizedTest(name = "{2}")
-    @Story("{storyName}")
+    @Story("Check warnings appear")
     public void loginWarningTests(String expectedWarningText, UserCreationInfo userInfo, String storyName) {
         MessageErrorPopUp messageErrorPopUp = new MessageErrorPopUp(driver);
 
