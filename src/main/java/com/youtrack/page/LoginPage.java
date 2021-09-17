@@ -34,7 +34,7 @@ public class LoginPage extends BasePage {
         return "/login";
     }
 
-    @Step("Login as admin")
+    @Step("login as admin")
     public void loginAsAdmin() {
         log.debug("Opening admin page...");
         super.open();
