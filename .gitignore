@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/.allure/
+/.idea/
+/build/
+/out/
+/out/production/classes/
+/out/test/classes/
